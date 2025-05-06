@@ -1,1 +1,0 @@
-cmd_/home/spanidea/qemu_tutorials/pciechodev/echodev-drv.ko := ../arm_toolchain/bin/arm-none-linux-gnueabihf-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/spanidea/qemu_tutorials/pciechodev/echodev-drv.ko /home/spanidea/qemu_tutorials/pciechodev/echodev-drv.o /home/spanidea/qemu_tutorials/pciechodev/echodev-drv.mod.o;  true

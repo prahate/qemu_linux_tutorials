@@ -1,1 +1,0 @@
-cmd_/home/spanidea/qemu_tutorials/pciechodev/Module.symvers :=  sed 's/ko$$/o/'  /home/spanidea/qemu_tutorials/pciechodev/modules.order | scripts/mod/modpost       -o /home/spanidea/qemu_tutorials/pciechodev/Module.symvers -e -i Module.symvers -T - 

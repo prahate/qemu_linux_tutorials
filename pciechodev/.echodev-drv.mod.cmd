@@ -1,1 +1,0 @@
-cmd_/home/spanidea/qemu_tutorials/pciechodev/echodev-drv.mod := printf '%s\n'   echodev-drv.o | awk '!x[$$0]++ { print("/home/spanidea/qemu_tutorials/pciechodev/"$$0) }' > /home/spanidea/qemu_tutorials/pciechodev/echodev-drv.mod
